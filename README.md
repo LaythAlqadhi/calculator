@@ -1,26 +1,26 @@
 # Calculator
 
-This is a simple calculator implemented using HTML, CSS, and JavaScript. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator has a responsive UI with a display screen and buttons for entering numbers and performing calculations.
-
-## Technologies Used
-
-This project was built using HTML, CSS, and JavaScript.
-
-## Features
-
-- Basic arithmetic operations: addition, subtraction, multiplication, and division.
-- Clear button (AC) to reset the calculator.
-- Percentage button to apply a percentage to the displayed value.
-- Backspace button to delete the last entered character.
-- Equals button (=) to perform the calculation and display the result.
-- Responsive UI that adjusts to different screen sizes.
+This is a simple calculator application built with HTML, CSS, and JavaScript. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator has a responsive user interface and supports keyboard input for convenience.
 
 ## Usage
 
-1. Open the `index.html` file in a web browser.
-2. Use the number buttons (0-9) to enter numbers.
-3. Use the operator buttons (+, -, *, /) to select the desired arithmetic operation.
-4. Press the equals button (=) to perform the calculation and display the result.
-5. Use the clear button (AC) to reset the calculator.
-6. Use the percentage button (%) to apply a percentage to the displayed value.
-7. Use the backspace button (&larr;) to delete the last entered character.
+To use the calculator, open the `index.html` file in a web browser. You will see a calculator interface with a display area and buttons for numbers, operators, and other functionalities.
+
+- Click on the number buttons (0-9) to input numbers.
+- Click on the operator buttons (+, -, *, /) to set the desired arithmetic operation.
+- Click on the equals (=) button to perform the calculation and display the result.
+- Click on the AC button to clear the display and reset the calculator.
+- Click on the % button to apply a percentage calculation to the current value.
+- Click on the &larr; button to delete the last character from the display.
+
+You can also use the keyboard for input:
+- Type numbers (0-9) to input numbers.
+- Use the +, -, *, and / keys for operators.
+- Press Enter to calculate the result.
+- Press Backspace to delete the last character.
+
+##Preview
+
+You can preview the project [here](https://laythalqadhi.github.io/calculator/).
+
+Feel free to explore the code and customize the profile card UI to suit your needs.
