@@ -103,7 +103,6 @@ button#percentage:hover {
 
 button#decimal {
   background-color: #666;
-  pointer-events: none;
 }
 
 button#decimal:hover {
