@@ -118,11 +118,12 @@ function roundToMaxDecimals(number, maxDecimals) {
 }
 
 function enableDecimalButton() {
-  document.getElementById('decimal').disabled = !document.getElementById('display').value.includes('.');
+  const display = document.getElementById('display');
+  document.querySelector('.decimal').disabled = display.value.includes('.');
 }
 
 function disableDecimalButton() {
-  document.getElementById('decimal').disabled = true;
+  document.querySelector('.decimal').disabled = true;
 }
 
 document.addEventListener('keydown', function(event) {
