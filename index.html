@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="calculator">
@@ -12,29 +12,28 @@
       <input type="text" id="display" readonly>
     </div>
     <div class="buttons">
-      <button id="clear" onclick="clearDisplay()">AC</button>
-     <button class="operator" id="percentage" onclick="applyPercentage()">%</button>      
-      <button id="backspace" onclick="deleteLastCharacter()">&larr;</button>
-      <button id="equals" onclick="calculate()">=</button>      <button onclick="appendNumber(7)">7</button>
-      <button onclick="appendNumber(8)">8</button>
-      <button onclick="appendNumber(9)">9</button>
-      <button class="operator" onclick="setOperator('+')">+</button>
-      <button onclick="appendNumber(4)">4</button>
-      <button onclick="appendNumber(5)">5</button>
-      <button onclick="appendNumber(6)">6</button>
-      <button class="operator" onclick="setOperator('-')">-</button>
-      <button onclick="appendNumber(1)">1</button>
-      <button onclick="appendNumber(2)">2</button>
-      <button onclick="appendNumber(3)">3</button>
-      <button class="operator" onclick="setOperator('*')">*</button>
-      <button onclick="appendNumber(0)" id="zero">0</button>
-      <button class="operator decimal" id="decimal" onclick="appendDecimal()" disabled>.</button>
-      <button class="operator" onclick="setOperator('/')">/</button>      
+      <button data-key="Escape" data-key="c"id="clear">AC</button>
+     <button data-key="%" class="operator" id="percentage">%</button>      
+      <button data-key="Backspace" id="backspace">&larr;</button>
+      <button data-key="=" id="equals">=</button>
+      <button data-key="7" class="number">7</button>
+      <button data-key="8" class="number">8</button>
+      <button data-key="9" class="number">9</button>
+      <button data-key="+" class="operator">+</button>
+      <button data-key="4" class="number">4</button>
+      <button data-key="5" class="number">5</button>
+      <button data-key="6" class="number">6</button>
+      <button data-key="-" class="operator">-</button>
+      <button data-key="1" class="number">1</button>
+      <button data-key="3" class="number">2</button>
+      <button data-key="3" class="number">3</button>
+      <button data-key="*" data-key="x"  class="operator">*</button>
+      <button data-key="0" class="number" id="zero">0</button>
+      <button data-key="." class="decimal" id="decimal">.</button>
+      <button data-key="/" class="operator" >/</button>      
     </div>
   </div>
 
-  <script src="index.js"></script>
+  <script src="script.js"></script>
 </body>
-</html>
-
 </html>
