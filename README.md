@@ -7,7 +7,7 @@ This is a simple calculator application built with HTML, CSS, and JavaScript. It
 To use the calculator, open the `index.html` file in a web browser. You will see a calculator interface with a display area and buttons for numbers, operators, and other functionalities.
 
 - Click on the number buttons (0-9) to input numbers.
-- Click on the operator buttons (+, -, *, /) to set the desired arithmetic operation.
+- Click on the operator buttons (+, -, \*, /) to set the desired arithmetic operation.
 - Click on the equals (=) button to perform the calculation and display the result.
 - Click on the AC button to clear the display and reset the calculator.
 - Click on the % button to apply a percentage calculation to the current value.
@@ -15,12 +15,12 @@ To use the calculator, open the `index.html` file in a web browser. You will see
 
 You can also use the keyboard for input:
 - Type numbers (0-9) to input numbers.
-- Use the +, -, *, and / keys for operators.
+- Use the +, -, \*, and / keys for operators.
 - Press Enter to calculate the result.
 - Press Backspace to delete the last character.
 
-##Preview
+## Preview
 
-You can preview the project [here](https://laythalqadhi.github.io/calculator/).
+You can preview the project [here](https://LaythAlqadhi.github.io/calculator/).
 
-Feel free to explore the code and customize the profile card UI to suit your needs.
+Feel free to explore the code and customize the calculator UI to suit your needs.
